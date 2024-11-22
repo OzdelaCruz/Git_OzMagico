@@ -90,10 +90,10 @@ class locator():
     tabla_Clarovideo_BI = "/html/body/div[2]/div/div/div/div/section/div/div[2]/div[1]/div/div[17]/div/section/div/div[2]"
     salud_suscritosBI = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/section[1]/div[1]/div[2]/div[1]/div[3]/*[name()='svg'][1]/*[name()='g'][7]/*[name()='g'][1]/*[name()='text'][1]"
     salud_periodo_pruebaBI = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/section[1]/div[1]/div[2]/div[1]/div[3]/*[name()='svg'][1]/*[name()='g'][7]/*[name()='g'][2]/*[name()='text'][1]"
-
     cargo_reporte = "/html/body/div[2]/div/div/div/div/section/div/div[1]/div/div[1]/div[2]/div/div/button/div[2]/svg"
 
-    # ESCENARIO3 Y 4 TABLERO PARA ALTAS BAJAS SUSCRIPCIONES OTT ClaroVideo
+    # ESCENARIO3 Y 4 TABLERO PARA ALTAS BAJAS SUSCRIPCIONES OTT ClaroVideosalud_suscritosBI
+    
     reporteSuscripciones = "https://amco.cloud.looker.com/dashboards/821?Fecha=2023%2F11%2F01+to+2023%2F11%2F30&Pais=&Nombre+Producto=Claro+Video&Tipo+Producto=OTT"
     tabla_Altas = "section[aria-label='RESUMEN ALTAS']"
     tabla_Bajas = "section[aria-label='RESUMEN BAJAS']"

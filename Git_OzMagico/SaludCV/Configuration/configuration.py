@@ -34,6 +34,13 @@ class Configuration:
             'safebrowsing.enabled': True,  # Permitir la descarga de archivos
             'profile.default_content_settings.popups': 0  # Deshabilitar popups
         })
+        
+        self.chrome_options.add_argument('--disable-gpu')  # Desactiva la aceleración GPU
+        self.chrome_options.add_argument('--no-sandbox')  # Deshabilita el sandbox de Chrome
+        self.chrome_options.add_argument('--disable-dev-shm-usage')  # Usa memoria temporal si /dev/shm es limitada
+        self.chrome_options.add_argument('--disable-infobars')  # Oculta la barra de "automatización del navegador"
+        self.chrome_options.add_argument('--headless')  # (Opcional) Ejecuta en modo headless, sin interfaz gráfica
+
 
     def inicia_pagina(self):
         # Inicialización del WebDriver
